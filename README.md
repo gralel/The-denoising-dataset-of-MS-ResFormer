@@ -30,7 +30,7 @@ Example notebook for quick demonstration
 Repository Structure：
 
 
-├── train_data.py                   
+├── train_data.npy/out_
 ├── MS-ResFormer.ipynb                      
 └── README.md                               
 
