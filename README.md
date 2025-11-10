@@ -28,10 +28,9 @@ Evaluation metrics: RMSE, RRMSE, SNR
 Example notebook for quick demonstration
 
 Repository Structure：
-├── data/train_data.py                      # Dataset samples or placeholders
-├── MS-ResFormer.ipynb                      # Example Jupyter notebook
-└── README.md                               # Project documentation
-
+├── train_data.py                   
+├── MS-ResFormer.ipynb                      
+└── README.md                               
 
 Model Overview
 
