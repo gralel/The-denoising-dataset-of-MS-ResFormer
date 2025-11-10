@@ -1,14 +1,48 @@
-TEM Denoising with MS-ResFormer
-An end-to-end deep learning framework for Transient Electromagnetic (TEM) data denoising based on modified EQTransformer architecture.
-Project Overview
-Multi-Model Architecture: 8 different neural network models for TEM denoising
+MS-ResFormer
 
-Advanced Attention Mechanisms: Global and local attention with time-aware bias
+MS-ResFormer is a deep-learning framework for denoising transient electromagnetic (TEM) data. It features a multi-scale residual Transformer architecture designed to improve late-time stability and enhance underground signal recovery. This repository provides complete scripts for training, evaluation, inference, visualization, and reproducible experiments.
 
-Multi-Scale Processing: Parallel convolutional branches with different kernel sizes
+Features
 
-Residual Learning: Deep residual connections to prevent gradient vanishing
+Multi-Scale Residual Transformer architecture (MS-ResFormer)
 
-Sequence Modeling: Combined BiLSTM and Transformer for temporal dependencies
+Local temporal attention for capturing weak late-time signals
 
-Comprehensive Evaluation: RMSE, RRMSE, and SNR metrics in both original and normalized spaces
+
+Five synthetic noise types:
+
+Relative noise
+
+Background noise
+
+Electromagnetic interference
+
+Sferic noise
+
+Combined noise
+
+Training, validation, and denoising visualization included
+
+Evaluation metrics: RMSE, RRMSE, SNR
+
+Example notebook for quick demonstration
+
+Repository Structure：
+├── data/train_data.py                      # Dataset samples or placeholders
+├── MS-ResFormer.ipynb                      # Example Jupyter notebook
+└── README.md                               # Project documentation
+
+
+Model Overview
+
+MS-ResFormer integrates:
+
+Multi-scale convolutional stems
+
+Residual feature enhancement
+
+Local window temporal attention
+
+Late-time stability enhancement
+
+The model is optimized for the characteristics of TEM db/dt data and achieves strong denoising performance without relying on overly complex architectures.
