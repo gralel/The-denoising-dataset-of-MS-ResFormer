@@ -30,8 +30,14 @@ Example notebook for quick demonstration
 Repository Structure：
 
 
-├── train_data.npy/out_
-├── MS-ResFormer.ipynb                      
+├── int_train.npy/out_train.npy
+
+Main training code:
+
+├── MS-ResFormer.ipynb         
+
+Training dataset
+
 └── README.md                               
 
 Model Overview
