@@ -29,6 +29,7 @@ Example notebook for quick demonstration
 
 Repository Structure：
 
+Training dataset：
 
 ├── int_train.npy/out_train.npy
 
@@ -36,7 +37,7 @@ Main training code:
 
 ├── MS-ResFormer.ipynb         
 
-Training dataset
+
 
 └── README.md                               
 
